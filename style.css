@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #d6ccc2;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+section{
+    background-color: #d6ccc2;
+    border: 1px #d6ccc2 solid;
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+h1{
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+.self-introduction{
+    background-color: antiquewhite;
+}
+h2{
+    margin: 20px 0;
+}
+.personal-skill div{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.projects div{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.self-introduction img{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.self-introduction div{
+    text-align: center;
+}
+footer{
+    background-color: #d6ccc2;
+    border: 5px #d6ccc2 solid;
+    text-align: center;
+}
+/* 響應式設計 */
+@media screen and (max-width: 768px) {
+    header ul{
+        display: none;
+    }
+    header h1{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
